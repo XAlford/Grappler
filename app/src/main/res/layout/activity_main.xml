@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2d2c2c"
+    tools:context="com.alford.grappler.MainActivity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/grappler"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:text="GRAPPLER"
+        android:textSize="50dp"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_centerInParent="true"/>
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lucha1"
+
+        android:id="@+id/mainlucha"
+        android:layout_centerInParent="true"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+
+        android:layout_below="@+id/grappler">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/text_color_msin"
+
+            android:layout_height="wrap_content"
+            android:text="@string/jp_wrestling"
+            android:textSize="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/text_color_msin"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:text="@string/japanese_grappling"
+            android:textSize="30dp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/text_color_msin"
+
+            android:layout_height="wrap_content"
+            android:text="@string/russian_grappling"
+            android:layout_marginLeft="45dp"
+
+            android:textSize="20dp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/text_color_msin"
+            android:layout_marginLeft="55dp"
+
+
+            android:layout_height="wrap_content"
+            android:text="@string/japanese2_grappling"
+            android:textSize="20dp"
+
+
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kumite"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:id="@+id/start_button"
+        android:layout_marginBottom="15dp"
+        android:background="#0ed21b"
+        android:onClick="ToStore"
+
+        />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GrAPPler</string>
+    <string name="japanese_grappling">柔術</string>
+    <string name="russian_grappling">Самбо</string>
+    <string name="korean_grappling">씨름</string>
+    <string name="japanese2_grappling">修斗</string>
+    <string name="catch_wrestling">Catch Wrestling</string>
+    <string name="jp_wrestling">レスリング</string>
+    <string name="title_activity_detail_item">DetailItem</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="search_hint">Test Your Might</string>
+
+
+</resources>

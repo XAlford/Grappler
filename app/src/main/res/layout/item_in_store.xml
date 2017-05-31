@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    style="@style/CardView.Dark"
+    app:cardCornerRadius="1dp"
+    app:cardElevation="5dp"
+
+    android:layout_margin="1.5dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"
+            android:background="#8443ce"
+            android:id="@+id/item_logo"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_name"
+            android:text="BACKMOUNT"
+            android:textAllCaps="true"
+            android:textColor="@color/main_white_font"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/item_logo"
+            android:textSize="22dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_description"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/item_logo"
+            android:textSize="20dp"
+            android:layout_below="@id/item_name"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="technique"
+            android:id="@+id/defensive_offensive"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/payment"
+            android:text="payement"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/defensive_offensive"
+            android:textSize="20dp"/>
+
+
+
+
+        <View
+            android:id="@+id/dividingline"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="77dp"
+            android:background="#787777"/>
+
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="20dp"
+            android:id="@+id/examine_button"
+            android:textColor="#c9c9c9"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/buy_button"
+            android:text="look"
+            android:textStyle="bold"
+            android:background="@color/cardview_dark_background"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:id="@+id/buy_button"
+            android:textColor="#787777"
+            android:src="@drawable/ic_add_black_24dp"
+
+
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@color/cardview_dark_background"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:id="@+id/remover"
+            android:textColor="#ff4040"
+            android:layout_alignParentBottom="true"
+            android:background="@color/cardview_dark_background"
+            android:text="remove"/>
+
+
+
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

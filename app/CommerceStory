@@ -1,0 +1,57 @@
+[HOME Screen]
+
+
+User 'Kumite' in MainActivity prominently displayed in center bottom
+of home screen.
+
+
+>User can press 'Kumite' to enter the store.
+
+
+STORE'
+
+While in the store
+--------------------
+-user pressed magnifying glass to search a list of available 'grappling positions'
+OR by Cost
+-user can search by 'like' name or 'Cost' of 'grappling position'
+-user can select from filtered positions
+
+    --must meet criteria, was not Espresso tested
+
+
+
+
+Look Button
+-----------
+-user can click 'look' in bottom right corner of 'grappling position'
+item to get a more detailed view THAT item were selecting item from store,
+or from the filtered view provided by the search.
+
+      --must use look to view detail
+
+
+DETAIL SCREEN
+[Must Be in Detail to add 'POSITIONS' to cart]
+------------
+ShoppingCartAddButton
+----------------------
+
+-user can add the selected grappling position to the
+Checkout/Cart activity w/o moving to that activity.
+
+
+
+Checkout Button
+---------------
+-User can view contents of the cart whether the cart contains items or not. after
+clicking the centralized 'checkout button'
+
+CHECKOUT ACTIVITY
+Purchase
+---------
+-user can clear cart/ also resetting COL_QUANTITY in the db.
+-----------------
+Remove Button
+--------------
+-User can remove individual Button from cart
